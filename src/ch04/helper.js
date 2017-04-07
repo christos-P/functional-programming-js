@@ -2,7 +2,7 @@
  * Helper objects/functions for chapter 4
  * Author: Luis Atencio
  */
-const R = require('ramda');
+const R = require('rambda');
 
 // checkType :: Type -> Type -> Type | TypeError
 const checkType = R.curry(function(typeDef, obj) {
